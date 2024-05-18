@@ -1,0 +1,40 @@
+
+export type UserType = {
+    id?: string;
+
+    isDisplay?: boolean;
+
+    username?: string;
+
+    firstName?: string;
+
+    lastName?: string;
+
+    email?: string;
+
+    phoneNumber?: string;
+
+    imgDisplay?: string;
+
+    birthday?: Date; 
+
+    address?: string;
+
+    gender?: string;
+
+    role?: string[];
+
+    memberExp?: number;
+
+    memberLevel?: string;
+
+    cartId?: string;
+
+    roomId?: string;
+    
+    heart: string[];
+
+    updateAt?: Date;
+
+    createdAt?: Date;
+}
