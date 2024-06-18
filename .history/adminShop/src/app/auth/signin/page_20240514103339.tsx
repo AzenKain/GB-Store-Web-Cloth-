@@ -28,7 +28,7 @@ const SignIn: React.FC = (props: any) => {
     });
 
     if (!res?.error) {
-      router.push(props.searchParams.callbackUrl ?? "/");
+      router.push(props.searchParams.callbackUrl ?? "http://localhost:3000");
       toast.success("Welcome back!!")
     }
     else {

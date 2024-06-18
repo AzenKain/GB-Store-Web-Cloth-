@@ -150,7 +150,7 @@ const SalesBox = () => {
                         <div className="main-box border border-gray-200 rounded-xl pt-6 max-w-xl max-lg:mx-auto lg:max-w-full">
                             <div className="flex flex-col lg:flex-row lg:items-center justify-between px-6 pb-6 border-b border-gray-200">
                                 <div className="data">
-                                    <p className="font-semibold text-base leading-7 text-black dark:text-white ">Order Id: <span className="text-indigo-600 font-medium">{orderData?.id}</span></p>
+                                    <p className="font-semibold text-base leading-7 text-black dark:text-white ">Order Id: <span className="text-indigo-600 font-medium">{orderData.id}</span></p>
                                     <p className="font-semibold text-base leading-7 text-black dark:text-white  mt-4">Order Payment : <span className="text-gray-400 font-medium">{new Date(orderData?.createdAt ?? "").toUTCString()}</span></p>
                                 </div>
                                 <div className="text-center text-3xl font-bold border-4 bg-gray-300 px-4 py-2 rounded-full">

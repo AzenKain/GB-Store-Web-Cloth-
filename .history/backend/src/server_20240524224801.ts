@@ -35,7 +35,7 @@ const io = new Server(httpServer, {
   maxHttpBufferSize: 1e8,
   pingTimeout: 60000,
   cors: {
-    origin: ["http://localhost:3000","http://localhost:3001", "http://localhost:3002", "http://localhost:3434"],
+    origin: ["http://localhost:3000","http://localhost:3001" "http://localhost:3434"],
     methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
     credentials: true
   },

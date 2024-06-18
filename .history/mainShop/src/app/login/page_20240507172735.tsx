@@ -24,7 +24,7 @@ export default function Login(props: any) {
     });
 
     if (!res?.error) {
-      router.push(props.searchParams.callbackUrl ?? "/");
+      router.push(props.searchParams.callbackUrl ?? "http://localhost:3000/");
       return;
     }
     toast.error("Email or password incorrect!")
